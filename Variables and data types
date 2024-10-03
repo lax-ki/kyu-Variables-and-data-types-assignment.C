@@ -1,0 +1,16 @@
+//program to calculate simple interest
+//preprocessor directive- scanf(), printf();
+# include <stdio.h>
+int main () {
+    char a='H';
+    char name[]={"Ndegwa Alex"};
+    int age=18;
+    float salary=20000;
+    double budget=1000;
+    printf("The character is %c\n", a);
+    printf("My name is %s\n", name);
+    printf("My age is %d\n", age);
+    printf("My salary is %.2f\n", salary);
+    printf("My budget is %.2lf\n", budget);
+    return 0;
+}
